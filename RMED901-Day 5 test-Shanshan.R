@@ -28,11 +28,16 @@ tail(myData,15)
 # alder column has both entries as ranges and something with or (last rows)
 # some cell values as " .", which presumably make your column as type character
 
-# view function should not used for the huge dataset
+# view function should not used for the huge data set
 view(myData)
 
 summary(myData)
 
 glimpse(myData)
+
+skimr::skim(myData)
+
+# :: skim function from the skimr package, not using all the function in that package
+
 
 
