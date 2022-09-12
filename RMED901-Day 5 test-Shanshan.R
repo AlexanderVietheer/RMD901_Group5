@@ -13,3 +13,5 @@ myData <- read_csv(here("/Users/shanshan/RMD901_Group5", "Konsultasjoner.csv"))
 myData 
 
 head(myData)
+
+
