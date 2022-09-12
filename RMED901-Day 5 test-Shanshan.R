@@ -14,4 +14,23 @@ myData
 
 head(myData)
 
+# reading data file with read_delim()
+# because the data is tab delimited
+
+myData <- read_delim(here("/Users/shanshan/RMD901_Group5",
+                          "Konsultasjoner.csv"), delim = "\t")
+myData
+
+#exploring original data
+head(myData)
+head(myData, 7)
+tail(myData,15)
+# alder column has both entries as ranges and something with or (last rows)
+# some cell values as " .", which presumably make your column as type character
+
+# view function should not used for the huge dataset
+view(myData)
+
+summary(myData)
+
 
