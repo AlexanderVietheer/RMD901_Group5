@@ -33,4 +33,6 @@ view(myData)
 
 summary(myData)
 
+glimpse(myData)
+
 
